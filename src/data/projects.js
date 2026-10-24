@@ -1,0 +1,93 @@
+// PLACEHOLDER: replace with real client projects (or anonymize them, e.g.
+// "Regional healthcare network") before launch. Outcomes should only state
+// results the client has agreed to share.
+export const PROJECTS = [
+  {
+    slug: "nova-health",
+    name: "Nova Health",
+    category: "Healthcare",
+    tagline: "Niche social network for medical professionals",
+    headline: "The future of clinical collaboration",
+    summary:
+      "A private professional network where clinicians share cases, find specialists, and collaborate across institutions — with a rebuilt matching engine at its core.",
+    services: ["Software Engineering", "Mobile App Development", "Cloud & Infrastructure"],
+    stack: ["React", "Node.js", "PostgreSQL", "AWS"],
+    outcome: "Matching engine rebuilt in ten weeks; support tickets down by a third in the first month.",
+    logo: "NH",
+    bg: "linear-gradient(135deg, #1f2937, #374151)",
+    fg: "#e5e7eb",
+  },
+  {
+    slug: "loopwave",
+    name: "Loopwave",
+    category: "AI",
+    tagline: "Voice-first scheduling and intake agent",
+    headline: "Your all-in-one intake dashboard",
+    summary:
+      "A voice-first agent that books appointments, collects intake details, and hands off to staff — consolidating scattered tools into a single conversational layer.",
+    services: ["Artificial Intelligence", "Software Engineering"],
+    stack: ["Python", "LLM agents", "Speech-to-text", "React"],
+    outcome: "Customer onboarding cut from fifteen minutes to under three.",
+    logo: "LW",
+    bg: "linear-gradient(135deg, #3b2f1d, #57432a)",
+    fg: "#fde68a",
+  },
+  {
+    slug: "ridgeline-analytics",
+    name: "Ridgeline Analytics",
+    category: "AI",
+    tagline: "Centralized chatbot infrastructure",
+    headline: "One search. Every answer.",
+    summary:
+      "Shared retrieval and chatbot infrastructure that lets every team launch assistants over company knowledge — one search layer, consistent permissions, central monitoring.",
+    services: ["Artificial Intelligence", "Data & Analytics", "Cloud & Infrastructure"],
+    stack: ["RAG", "Vector search", "Kubernetes", "Azure"],
+    outcome: "Zero downtime since launch, delivered with no scope creep.",
+    logo: "RA",
+    bg: "linear-gradient(135deg, #0f172a, #1e293b)",
+    fg: "#dbeafe",
+  },
+  {
+    slug: "cedar-and-vine",
+    name: "Cedar & Vine",
+    category: "Web3",
+    tagline: "Tokenized memberships and creator payouts",
+    headline: "The trust layer for creator campaigns",
+    summary:
+      "Tokenized memberships and automated creator payouts, plus the campaign infrastructure to run creator programs at scale.",
+    services: ["Software Engineering", "Cloud & Infrastructure"],
+    stack: ["Solidity", "TypeScript", "Node.js", "AWS"],
+    outcome: "Working prototype shipped ahead of the client's next board meeting.",
+    logo: "CV",
+    bg: "linear-gradient(135deg, #1c1408, #3a2a0c)",
+    fg: "#fcd34d",
+  },
+  {
+    slug: "harborline-capital",
+    name: "Harborline Capital",
+    category: "Fintech",
+    tagline: "Real-time reconciliation dashboard for treasury teams",
+    headline: "Every account, reconciled in real time",
+    summary:
+      "A treasury dashboard that pulls balances and transactions from every bank and ledger into one view, flags mismatches as they happen, and keeps an audit trail of every adjustment.",
+    services: ["Data & Analytics", "Software Engineering"],
+    stack: ["Python", "dbt", "PostgreSQL", "React"],
+    logo: "HC",
+    bg: "linear-gradient(135deg, #052e2b, #0f3d38)",
+    fg: "#a7f3d0",
+  },
+  {
+    slug: "fernbank-clinics",
+    name: "Fernbank Clinics",
+    category: "Healthcare",
+    tagline: "Multi-location scheduling and intake platform",
+    headline: "One system, every location",
+    summary:
+      "One scheduling and patient-intake platform shared by every clinic location — replacing per-site tools with shared availability, digital intake, and consistent reporting.",
+    services: ["Software Engineering", "Enterprise Systems"],
+    stack: ["React", "Node.js", "FHIR APIs", "Azure"],
+    logo: "FC",
+    bg: "linear-gradient(135deg, #1e1b4b, #312e81)",
+    fg: "#c7d2fe",
+  },
+];
